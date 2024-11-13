@@ -40,7 +40,7 @@ for code_ptr < len(code) {
     }else if command == "." {
         print(chr(memory[pointer]))
     }else if command == ","{
-        got_input = input()
+        got_input = input("")
         memory[pointer] = chr(got_input[0])
     }else if command == '[' {
         if memory[pointer] == 0 {
