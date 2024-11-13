@@ -15,5 +15,5 @@ danfe run ./main.df ./example_bf_programs/helloworld.bf
 
 ``` md
 # Output
-HELLO WOLD
+Hello World!
 ```
